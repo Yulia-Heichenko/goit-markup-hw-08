@@ -1,0 +1,45 @@
+.hero {
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: #2F303A;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+    ),
+     url("../images/bg.jpg");
+    width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+
+    &__caption {
+    max-width: 696px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    color: var(--wite-color);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    }
+}
+
+
+
+.modal-btn {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    background-color: var(--fon-batton);
+    color: var(--wite-color);
+    cursor: pointer;
+    min-width: 200px;
+    border-radius: 4px;
+    padding: 10px 32px;
+    align-items: center;
+    }

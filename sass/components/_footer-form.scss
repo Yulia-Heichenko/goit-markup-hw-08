@@ -1,0 +1,52 @@
+.footer__footer-modal {
+    margin-left: 93px;
+}
+
+.footer-modal__subscription {
+    @include font(14px, bold, 00.03em);
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer-form__input {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    background-color: inherit;
+    padding-left: 16px;
+}
+
+.footer-btn {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border-color: var(--accent-color);
+    margin-left: 12px;
+    font-weight: bold;
+    padding-left: 28px;
+    padding-right: 28px;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    cursor: pointer;
+}
+
+.footer-form__icon {
+    height: 24px;
+    width: 24px;
+    margin-left: 10px;
+}
+
+.footer-form {
+    display: flex;
+    margin-left: auto;
+}

@@ -1,0 +1,36 @@
+.regular-clients {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.regular-clients__link {
+    display: flex;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+
+    transition-property: border;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--transition-timing-function);
+
+    &:hover,
+    &:after {
+    border: 1px solid #2196F3;
+    }
+}
+
+.regular-clients__item {
+    transition-property: fill;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--transition-timing-function);
+    fill:  #AFB1B8;
+
+    .regular-clients__link:hover &,
+    .regular-clients__link:focus & {
+    fill: var(--fon-batton);
+    }
+}
