@@ -36,6 +36,10 @@
     margin-top: 0px;
     margin-bottom: 16px;
     }
+
+    &__picture {
+        max-width: 100%;
+    }
 }
 
 .team-member__bloc {
@@ -61,7 +65,14 @@
 
     .team-member {
     margin-left: 30px;
-    width: calc((100%-60px)/2);
+    width: calc((100% - 60px)/2);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .team-member {
+    margin-left: 30px;
+    width: calc((100% - 120px)/4);
     }
 }
 
