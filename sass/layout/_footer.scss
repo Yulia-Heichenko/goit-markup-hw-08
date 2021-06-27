@@ -97,7 +97,10 @@ address {
 @media screen and (min-width: 768px) {
     .footer-container {
     display: flex;
-    align-items:baseline
+    align-items:baseline;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
 }
 
 }
