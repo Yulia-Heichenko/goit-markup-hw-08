@@ -18,11 +18,16 @@ address {
     font-weight: normal
 }
 
+.contacts {
+    text-align: center;
+}
+
 .footer-addres__company {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--wite-color);
+    text-align: center;
     margin-top: 20px;
     margin-bottom: 9px;
 }
@@ -102,12 +107,30 @@ address {
     justify-content: space-around;
 
 }
+.subscription__offer {
+    padding-top: 0px;
+}
 
 }
 
 @media screen and (min-width: 1200px) {
 .subscription__offer {
     text-align: left;
+}
+.color {
+    text-align: left;
+}
+
+.contacts {
+    text-align: left;
+}
+
+.footer-addres__company {
+    text-align: left;
+}
+
+.subscription__offer {
+    padding-top: 0px;
 }
 }
 

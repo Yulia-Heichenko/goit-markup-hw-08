@@ -42,6 +42,16 @@
 
 
 .portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -30px;
+    margin-left: -30px;
+
+    &__list {
+    margin-top: 30px;
+    margin-left: 30px;
+    }
+
     &__heading {
     font-weight: 700;
     font-size: 18px;
@@ -111,7 +121,15 @@
     }
 }
 
+@media screen and (min-width: 768px) {
+    .filters {
+    justify-content: center;
+    }
+}
 
+@media screen and (min-width: 1200px) {
+
+}
 
 
 
@@ -198,12 +216,3 @@
 //     }
 // }
 
-@media screen and (min-width: 768px) {
-    .filters {
-    justify-content: center;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-
-}

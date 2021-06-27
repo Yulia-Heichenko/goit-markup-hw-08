@@ -446,6 +446,7 @@ img {
   }
   .footer__footer-modal {
     margin-left: 93px;
+    margin-top: 0px;
   }
   .footer-modal__subscription {
     text-align: left;
@@ -1099,11 +1100,16 @@ address {
   font-weight: normal;
 }
 
+.contacts {
+  text-align: center;
+}
+
 .footer-addres__company {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--wite-color);
+  text-align: center;
   margin-top: 20px;
   margin-bottom: 9px;
 }
@@ -1180,11 +1186,26 @@ address {
     flex-wrap: wrap;
     justify-content: space-around;
   }
+  .subscription__offer {
+    padding-top: 0px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .subscription__offer {
     text-align: left;
+  }
+  .color {
+    text-align: left;
+  }
+  .contacts {
+    text-align: left;
+  }
+  .footer-addres__company {
+    text-align: left;
+  }
+  .subscription__offer {
+    padding-top: 0px;
   }
 }
 
@@ -1227,6 +1248,18 @@ address {
   color: #ffffff;
   background-color: var(--fon-batton);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+
+.portfolio__list {
+  margin-top: 30px;
+  margin-left: 30px;
 }
 
 .portfolio__heading {
