@@ -18,7 +18,7 @@
 
 .footer__footer-modal {
     margin-top: 60px;
-    width: 450px;
+    max-width: 450px;
 }
 
 
@@ -32,7 +32,7 @@
 }
 
 .footer-btn {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     width: 200px;
     height: 50px;

@@ -69,10 +69,11 @@
     letter-spacing: 0.03em;
     color: var(--second-color);
     margin-top: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     }
 
     &__border {
+        flex-grow: 1;
     background: var(--wite-color);
     padding: 20px 24px;
     border-left: 1px solid #EEEEEE;
@@ -86,7 +87,9 @@
     }
 }
 .portfolio__item {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     transition-property: box-shadow;
     transition-duration: var(--transition-duration);
     transition-timing-function: var(--transition-timing-function);
@@ -125,10 +128,16 @@
     .filters {
     justify-content: center;
     }
+
+    .portfolio__list {
+        width: calc((100% - 60px) / 2);
+    }
 }
 
 @media screen and (min-width: 1200px) {
-
+    .portfolio__list {
+        width: calc((100% - 90px) / 3);
+    }
 }
 
 
