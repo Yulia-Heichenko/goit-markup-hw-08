@@ -634,6 +634,13 @@ img {
   background-color: transparent;
   border: none;
   padding: 0;
+  cursor: pointer;
+  transition: fill var(--transition-duration) cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header__mobile-menu-btn:hover, .header__mobile-menu-btn:focus {
+  fill: var(--accent-color);
+  transition: fill var(--transition-duration) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header__mobile-menu-icon {
