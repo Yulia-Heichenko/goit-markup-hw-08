@@ -496,9 +496,7 @@ img {
 }
 
 .mobile-menu__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  height: 100vh;
   position: relative;
   padding-left: 25px;
   padding-top: 48px;
@@ -521,6 +519,12 @@ img {
 .mobile-menu__close-btn:hover, .mobile-menu__close-btn:focus {
   fill: var(--accent-color);
   transition: fill var(--transition-duration) cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-menu__nav-bloc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .mobile-menu.is-open {

@@ -12,9 +12,7 @@
     pointer-events: none;
 
     &__container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        height: 100vh;
         position: relative;
         padding-left: 25px;
         padding-top: 48px;
@@ -39,7 +37,14 @@
         fill: var(--accent-color);
         transition: fill var(--transition-duration) cubic-bezier(0.4, 0, 0.2, 1);
         }
+        
     }
+
+    &__nav-bloc {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
 
     &.is-open {
         opacity: 1;
