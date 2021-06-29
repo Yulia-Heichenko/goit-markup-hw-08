@@ -466,8 +466,8 @@ img {
     text-align: left;
   }
   .footer__footer-modal {
-    margin-left: 93px;
     margin-top: 0px;
+    max-width: 570px;
   }
   .footer-modal__subscription {
     text-align: left;
@@ -610,6 +610,10 @@ img {
   display: none;
 }
 
+.header.border {
+  border-bottom: 1px solid #ECECEC;
+}
+
 .header {
   padding-top: 16px;
   padding-bottom: 16px;
@@ -680,8 +684,6 @@ img {
   }
   .header__list {
     display: inline;
-    margin-top: 21px;
-    margin-bottom: 21px;
   }
   .header__mobile-menu-btn {
     display: none;
@@ -903,12 +905,16 @@ img {
   .description__list {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: -30px;
     margin-left: -30px;
+  }
+  .description__item:not(:last-child) {
+    margin-bottom: 0px;
   }
   .description__item {
     flex-basis: calc(100% / 2 - 30px);
     margin-left: 30px;
+    margin-top: 30px;
   }
 }
 
@@ -925,10 +931,9 @@ img {
   }
   .description__list {
     flex-wrap: nowrap;
-    margin-top: 0;
   }
   .description__item:not(:last-child) {
-    margin-right: 30px;
+    margin-right: 0px;
   }
 }
 
@@ -1034,7 +1039,6 @@ img {
   .structure__list {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 30px;
     margin-left: -30px;
   }
   .team-member {
@@ -1047,6 +1051,7 @@ img {
   .team-member {
     margin-left: 30px;
     width: calc((100% - 120px)/4);
+    margin-bottom: 0;
   }
 }
 
@@ -1068,7 +1073,7 @@ img {
 .regular-clients__link {
   display: flex;
   justify-content: center;
-  max-width: 170px;
+  width: 100%;
   height: 92px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
@@ -1165,6 +1170,10 @@ address {
   margin-bottom: 9px;
 }
 
+.subscription {
+  margin-top: 60px;
+}
+
 .subscription__offer {
   font-weight: 700;
   font-size: 14px;
@@ -1176,7 +1185,6 @@ address {
   margin-top: 0px;
   margin-bottom: 20px;
   text-align: center;
-  padding-top: 60px;
 }
 
 .subscription-list {
@@ -1215,6 +1223,9 @@ address {
     flex-wrap: wrap;
     justify-content: space-around;
   }
+  .subscription {
+    margin-top: 0px;
+  }
   .subscription__offer {
     padding-top: 0px;
   }
@@ -1226,6 +1237,9 @@ address {
   }
   .color {
     text-align: left;
+  }
+  .footer-container {
+    justify-content: space-between;
   }
   .contacts {
     text-align: left;
@@ -1375,6 +1389,9 @@ address {
 @media screen and (min-width: 1200px) {
   .portfolio__list {
     width: calc((100% - 90px) / 3);
+  }
+  .filters__item {
+    margin-top: 0px;
   }
 }
 /*# sourceMappingURL=main.css.map */
