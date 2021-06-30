@@ -119,7 +119,7 @@ img {
 
 .social-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .social-list__link {
@@ -1267,7 +1267,7 @@ address {
   display: flex;
   flex-wrap: wrap;
   padding-left: 0px;
-  margin-top: 0px;
+  margin-top: -8px;
   margin-bottom: 50px;
 }
 
@@ -1391,6 +1391,9 @@ address {
 @media screen and (min-width: 768px) {
   .filters {
     justify-content: center;
+  }
+  .filters__item {
+    margin-top: 0px;
   }
   .portfolio__list {
     width: calc((100% - 60px) / 2);
